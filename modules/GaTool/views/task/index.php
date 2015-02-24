@@ -79,7 +79,7 @@ if(isset($job_created)) {
                             </div>
                             <div class="form-group">
                                 <label>Example :</label>
-                                <p class="form-control-static">ga:hostname=~.*opensooq.*</p>
+                                <p class="form-control-static">ga:hostname=~.*google.*</p>
                             </div>
 
                             <div class="form-group">
@@ -93,56 +93,7 @@ if(isset($job_created)) {
                             <div class="form-group">
                                 <label>Example :</label>
                                 <p class="form-control-static" style="word-break: break-word;">
-                                    organic_v04::ga:medium=~organic,ga:source=~search|google.com;ga:source!~plus.url.google.com
-
-
-                                    social_fb_other_04::ga:source=~facebook;ga:medium!~organic|none|cpc|Social;ga:medium!=Social
-
-
-                                    paid_hsb_v04::ga:source=~hsoub;ga:medium==cpc
-
-
-                                    social_fb_utm_v04::ga:source=~facebook;ga:medium=~Social
-
-
-                                    paid_apnx_v04::ga:source=~appnexus;ga:medium=~cpc
-
-
-                                    referral_email_v04::ga:medium=~email
-
-
-                                    paid_ggl_srch_v04::ga:campaign=~srch|Search|(not set)|search;ga:medium=~cpc
-
-
-                                    direct_v04::ga:source=~opensooq.com,ga:medium==(none)
-
-
-                                    social_other_v04::ga:source=~instagram|youtube|pinterest|linkedin|plus.google.com|plus.url.google.com;ga:medium!~cpc
-
-
-                                    paid_ggl_dspl_v04::ga:campaign=~dis|display|Display,ga:campaign==130917-IQ-Cars;ga:medium=~cpc
-
-
-                                    social_tw_utm_v04::ga:medium==Social;ga:source=~Twitter
-
-
-                                    paid_fb_v04::ga:medium=~cpc;ga:source=~facebook
-
-
-                                    paid_other_v04::ga:source=~banner|banners|textad|cpc|FathaIjbaria
-
-
-                                    paid_zwr_v04::ga:source=~zwaar
-
-
-                                    referral_other_v04::ga:medium=~referral;ga:source!~google|opensooq|facebook|search|linkedin|youtube|instagram|pinterest|zwaar|ask;ga:source!=t.co
-
-
-                                    social_tw_other_v04::ga:source==t.co;ga:medium==referral
-
-
-                                    paid_adfly_v04::ga:medium==cpc;ga:source==adfly
-
+                                    organic_search::ga:medium=~organic,ga:source=~search|google.com;ga:source!~plus.url.google.com
                                 </p>
                             </div>
 

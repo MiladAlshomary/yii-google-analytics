@@ -8,14 +8,14 @@ Yii module provides a UI tool to create  [resque](https://github.com/resque/resq
 - [Segments](https://developers.google.com/analytics/devguides/reporting/core/v3/segments)
 -  Filters 
 - Where to save data ( currently there is mysql and [couchbase](http://www.couchbase.com/) options ).
-Based on the the options you choose we create a table or bucket ( if you choose cauchbase ) with appropriate number of columns and save your data in it .
+Based on the the options you choose we create a table or bucket ( if you choose couchbase ) with appropriate number of columns and save your data in it .
 
 
 ----------
 ###Requirement :
 - [Redis](http://redis.io/)
 -  [Yii application](http://www.yiiframework.com/doc/guide/1.1/en/basics.application) to host the module. 
--  [php client for cauchbase](http://docs.couchbase.com/couchbase-sdk-php-1.1/) ( if you want to take the couchbase option )
+-  [php client for couchbase](http://docs.couchbase.com/couchbase-sdk-php-1.1/) ( if you want to take the couchbase option )
 - mysql db with the following [schema](https://github.com/MiladAlshomary/yii-google-analytics/tree/master/schema) 
 
 ------
